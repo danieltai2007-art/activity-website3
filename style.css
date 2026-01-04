@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+/* 內容區 */
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content h2 {
+    border-left: 6px solid #0077aa;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    margin: 10px 0;
+}
+
+/* 下載專區 */
+.download-area {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.download-area a {
+    display: inline-block;
+    background-color: #0077aa;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.download-area a:hover {
+    background-color: #005f88;
+}
+.photo-group img {
+    width: 48%;
+}
+
+
+
+/* 頁尾 */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+/* CSS Document */
+
